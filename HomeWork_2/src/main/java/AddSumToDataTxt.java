@@ -27,7 +27,3 @@ public class AddSumToDataTxt {
 
         }
 }
-// Writer output = new BufferedWriter(new FileWriter(file, true));
-//
-//            output.append("\n").append(res);
-//            output.close();
