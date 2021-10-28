@@ -19,16 +19,3 @@ public class Main {
         addSum.addSum((int) sum);
     }
 }
-//File f = new File("C:\\Temp\\numbers.txt");
-//            BufferedReader b = new BufferedReader(new FileReader(f));
-//            int sum = 0;
-//            int count = 0;
-//            String line = b.readLine();
-//            while(line != null) {
-//                sum += Integer.parseInt(line); // Convert String to int.
-//                count++;
-//                line = b.readLine();
-//            }
-//            b.close();
-//            double average = (double) sum/count;
-//            System.out.println("Sum: " + sum + ", count: " + count + ", average: " + average + ".");
