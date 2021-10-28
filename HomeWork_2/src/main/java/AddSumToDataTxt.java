@@ -15,15 +15,15 @@ public class AddSumToDataTxt {
         BufferedWriter writer=null;
 
         try {
+            
             myFile = new File("src/main/resources/data.txt");
             writer = new BufferedWriter(new FileWriter(myFile, true));
             writer.append("\n").append(String.valueOf(sum));
             writer.close();
             System.out.println("Done");
+            
         }catch(Exception e){
+            
             logger.error(e.getMessage());
-        }
-
-
-        }
-}
+            
+        }}}
